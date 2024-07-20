@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.quizapp.controllers.UserDashboardController">
+    <Button fx:id="takeQuizButton" text="Take Quiz" layoutX="200" layoutY="100" onAction="#takeQuiz"/>
+    <Button fx:id="viewProgressButton" text="View Progress" layoutX="200" layoutY="150" onAction="#viewProgress"/>
+</AnchorPane>

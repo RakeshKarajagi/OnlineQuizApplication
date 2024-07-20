@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.quizapp.controllers.CreateQuizController">
+    <TextField fx:id="quizTitleField" layoutX="50" layoutY="30" promptText="Quiz Title"/>
+    <TextField fx:id="quizDescriptionField" layoutX="50" layoutY="70" promptText="Quiz Description"/>
+    <VBox fx:id="questionsBox" layoutX="50" layoutY="110"/>
+    <Button text="Add Question" layoutX="50" layoutY="350" onAction="#addQuestion"/>
+    <Button text="Save Quiz" layoutX="150" layoutY="350" onAction="#saveQuiz"/>
+</AnchorPane>
